@@ -7,9 +7,9 @@ disk-benchmarking.py runs fio tests based on the .ini file provided for differen
 The repo contains 3 ini files:
 ------------------------------
 
-fio-write.ini           - To test write throughput
-fio-read.ini            - To test read throughput
-fio-read-write.ini      - To test read, write throughput 
+- fio-write.ini           - To test write throughput
+- fio-read.ini            - To test read throughput
+- fio-read-write.ini      - To test read, write throughput 
 
 To execute the code, enter the following:
 -----------------------------------------
