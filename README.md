@@ -1,6 +1,6 @@
 # code-samples
 
-azure-disk-benchmarking-fio.py runs fio tests based on the .ini file provided for different combinations of bs and iodepth and outputs:
+disk-benchmarking.py runs fio tests based on the .ini file provided for different combinations of bs and iodepth and outputs:
  - the combination of bs and iodepth that provides maximum IOPS 
  - the combination of bs and iodepth that provides maximum throughput (MBps)
 
@@ -13,12 +13,12 @@ fio-read-write.ini      - To test read, write throughput
 
 To execute the code, enter the following:
 -----------------------------------------
-python azure-disk-benchmarking-fio.py <ini-file-name>
+python disk-benchmarking.py <ini-file-name>
   
 Example:
 --------
 
-python azure-disk-benchmarking-fio.py fio-write.ini
+python disk-benchmarking.py fio-write.ini
 
 
   
