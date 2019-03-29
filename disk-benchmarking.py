@@ -21,10 +21,10 @@ def max_bw(ave_bw):
 
 def main():
 
-  iodepth=[8,16,32,64,128,256]
-  bs=[8,16,32,64,128,256]
-  fio_filename=sys.argv[1]
-  run_time=5 #Runtime in seconds
+    iodepth=[8,16,32,64,128,256]
+    bs=[8,16,32,64,128,256]
+    fio_filename=sys.argv[1]
+    run_time=5 #Runtime in seconds
 
     for i in bs:
         for j in iodepth:
