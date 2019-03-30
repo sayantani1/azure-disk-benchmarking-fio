@@ -11,6 +11,8 @@ The repo contains 3 ini files:
 - fio-read.ini            - To test read throughput
 - fio-read-write.ini      - To test read, write throughput 
 
+Update the directory parameter in the ini files to point to the directory to which the disk you are benchmarking is mounted.
+
 To execute the code, enter the following:
 -----------------------------------------
 python disk-benchmarking.py <ini-file-name>
