@@ -15,7 +15,7 @@ Update the directory parameter in the ini files to point to the directory to whi
 
 To execute the code, enter the following:
 -----------------------------------------
-python disk-benchmarking.py <ini-file-name>
+python disk-benchmarking.py ini-file-name
   
 Example:
 --------
