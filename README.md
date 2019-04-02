@@ -13,6 +13,11 @@ The repo contains 3 ini files:
 
 Update the directory parameter in the ini files to point to the directory to which the disk you are benchmarking is mounted.
 
+Prerequisite:
+-------------
+
+Install fio
+
 To execute the code, enter the following:
 -----------------------------------------
 python disk-benchmarking.py ini-file-name
